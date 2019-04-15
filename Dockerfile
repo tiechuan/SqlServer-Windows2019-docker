@@ -1,4 +1,4 @@
-#Step 1: Start from base image mcr.microsoft.com/windows/servercore
+#Step 1: Start from base image mcr.microsoft.com/windows/servercore. This is Windows Server 2019.
 FROM mcr.microsoft.com/windows/servercore:1809
 
 #Step 2: Create temporary directory to hold SQL Server 2016 installation files
